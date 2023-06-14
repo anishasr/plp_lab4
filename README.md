@@ -13,7 +13,7 @@ so, what are they and how do they differ from each other?
 2) What is the syntax for declaring a function in your language?
 <br><br>
 
-## Code Example
+### Code Example
  ```c
 return_type name_of_function(parameters) {
     // code to be executed
@@ -21,7 +21,7 @@ return_type name_of_function(parameters) {
 }
 ```
 
-## Not Returning Value Example: 
+### Not Returning Value Example: 
 
  ```c
 void even_or_odd(int num) {
@@ -33,7 +33,7 @@ void even_or_odd(int num) {
 }
 ```
 
-## Returing a Value Example:
+### Returing a Value Example:
 
 ```c
 int integer_multiplication(int num1, int num2) {
@@ -45,7 +45,7 @@ int integer_multiplication(int num1, int num2) {
 it can run?
 <br><br> In C functions must be created and placed in the file before they are called.
 
-## Valid Placement:
+### Valid Placement:
 
 ```c
 void perform_calculations() {
