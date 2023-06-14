@@ -3,13 +3,13 @@
 1) Does your language include multiple types of loops (while, do/while, for, foreach)? If
 so, what are they and how do they differ from each other? 
 <br><br>Yes, C includes while loops, do while loops, and for loops. 
-<br>The loops have different placement of the code evaluating the loop condition. For example, the while loop and for loop evaluate the condition before entering the loop whereas the do while loop after a loop iteration occurs. 
+<br><br>The loops have different placement of the code evaluating the loop condition. For example, the while loop and for loop evaluate the condition before entering the loop whereas the do while loop after a loop iteration occurs. 
 <br>A key difference in behavior is that, if the loop condition is not met in a while loop or a for loop, the code inside the loop will not be executed. But if the condition is not met in a do while loop, the code inside the loop will still be executed once before the condition is evaluated and the loop is exited. This is because the loop condition is at the end of the loop. 
 <br>Another difference is in the code that controls the iterations of the loop. In a while loop this code is in the loop body, usually the last line, whereas in for loops it occurs in the for loop conditon.
 
 2) What is the syntax for declaring a function in your language?
 
-### Code Example
+#### Code Example
  ```c
 return_type name_of_function(parameters) {
     // code to be executed
@@ -17,7 +17,7 @@ return_type name_of_function(parameters) {
 }
 ```
 
-### Not Returning Value Example: 
+#### Not Returning Value Example: 
 
  ```c
 void even_or_odd(int num) {
@@ -29,7 +29,7 @@ void even_or_odd(int num) {
 }
 ```
 
-### Returing a Value Example:
+#### Returing a Value Example:
 
 ```c
 int integer_multiplication(int num1, int num2) {
@@ -41,7 +41,7 @@ int integer_multiplication(int num1, int num2) {
 it can run?
 <br><br> In C functions must be created and placed in the file before they are called.
 
-### Valid Placement:
+#### Valid Placement:
 
 ```c
 void perform_calculations() {
@@ -53,7 +53,7 @@ int integer_multiplication(int num1, int num2) {
 }
 ```
 
-## Invalid Placement:
+#### Invalid Placement:
 
 ```c
 int integer_multiplication(int num1, int num2) {
@@ -72,7 +72,7 @@ void perform_calculations() {
 data types?
 <br>Yes, functions in C do accept multiple paremeters. They can be of different data types. 
 
-### Code Example: 
+#### Code Example: 
 
 ```c
 void print_data_types(int num, char word[]) {
@@ -85,7 +85,7 @@ void print_data_types(int num, char word[]) {
 implemented? If not, are there ways around that problem? What are they?
 <br> Functions in C cannot return multiple values the same way a language like Python does (return x, y). But data structures such as arrays and C's 'struct' can be used to achieve this functionality. 
 
-## Code Example: 
+#### Code Example: 
 
 ```c
 struct Height {
@@ -119,14 +119,13 @@ about here, but that are important to know in order to write one? What are they?
 <br>
 One general rule about functions is that C requires the inclusion of a main() function. Another interesting aspect about functions in C is function prototypes. This is a way of declaring a function early in the program before it is defined and called.
 
-## Code Example: 
+#### Code Example: 
 
 ```c
 int integer_multiplication(int num1, int num2);
 ```
 
 ## Sources
-https://www.w3schools.com/c/c_booleans.php
-https://www.geeksforgeeks.org/short-circuit-evaluation-in-programming/
-https://www.tutorialspoint.com/cprogramming/switch_statement_in_c.htm
-https://www.geeksforgeeks.org/fallthrough-in-c/
+https://www.geeksforgeeks.org/c-loops/
+https://computer.howstuffworks.com/c13.htm/
+https://www.w3schools.com/c/c_structs.php
