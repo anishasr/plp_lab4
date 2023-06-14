@@ -4,8 +4,8 @@
 so, what are they and how do they differ from each other? 
 <br><br>Yes, C includes while loops, do while loops, and for loops. 
 <br><br>The loops have different placement of the code evaluating the loop condition. For example, the while loop and for loop evaluate the condition before entering the loop whereas the do while loop after a loop iteration occurs. 
-<br>A key difference in behavior is that, if the loop condition is not met in a while loop or a for loop, the code inside the loop will not be executed. But if the condition is not met in a do while loop, the code inside the loop will still be executed once before the condition is evaluated and the loop is exited. This is because the loop condition is at the end of the loop. 
-<br>Another difference is in the code that controls the iterations of the loop. In a while loop this code is in the loop body, usually the last line, whereas in for loops it occurs in the for loop conditon.
+<br><br>A key difference in behavior is that, if the loop condition is not met in a while loop or a for loop, the code inside the loop will not be executed. But if the condition is not met in a do while loop, the code inside the loop will still be executed once before the condition is evaluated and the loop is exited. This is because the loop condition is at the end of the loop. 
+<br><br>Another difference is in the code that controls the iterations of the loop. In a while loop this code is in the loop body, usually the last line, whereas in for loops it occurs in the for loop conditon.
 
 2) What is the syntax for declaring a function in your language?
 
@@ -129,3 +129,4 @@ int integer_multiplication(int num1, int num2);
 https://www.geeksforgeeks.org/c-loops/
 https://computer.howstuffworks.com/c13.htm/
 https://www.w3schools.com/c/c_structs.php
+https://www.geeksforgeeks.org/how-to-return-multiple-values-from-a-function-in-c-or-cpp/
