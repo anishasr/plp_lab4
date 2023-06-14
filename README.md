@@ -114,6 +114,20 @@ int main() {
 }
 ```
 
+7) Is your language pass-by reference or value?
+<br> C is pass by value. This means that when a function is called and arguments are passed in, the value of the arguments are copied into variables in the function. So functions work with copies of the values rather than accessing the original variables directly. The variables outside of the function do not change if changes are made to the corresponding values in the function.
+
+8) Are there any other aspects of functions in your language that aren't specifically asked
+about here, but that are important to know in order to write one? What are they?
+<br>
+One general rule about functions is that C requires the inclusion of a main() function. Another interesting aspect about functions in C is function prototypes. This is a way of declaring a function early in the program before it is defined and called.
+
+## Code Example: 
+
+```c
+int integer_multiplication(int num1, int num2);
+```
+
 ## Sources
 https://www.w3schools.com/c/c_booleans.php
 https://www.geeksforgeeks.org/short-circuit-evaluation-in-programming/
