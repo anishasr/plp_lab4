@@ -41,7 +41,7 @@ int integer_multiplication(int num1, int num2) {
 it can run?**
 <br>In C functions must be created and placed in the file before they are called.
 
-#### Valid Placement:
+#### Invalid Placement:
 
 ```c
 void perform_calculations() {
@@ -53,7 +53,7 @@ int integer_multiplication(int num1, int num2) {
 }
 ```
 
-#### Invalid Placement:
+#### Valid Placement:
 
 ```c
 int integer_multiplication(int num1, int num2) {
@@ -126,6 +126,6 @@ int integer_multiplication(int num1, int num2);
 
 ## Sources
 https://www.geeksforgeeks.org/c-loops/
-https://computer.howstuffworks.com/c13.htm/
-https://www.w3schools.com/c/c_structs.php
-https://www.geeksforgeeks.org/how-to-return-multiple-values-from-a-function-in-c-or-cpp/
+<br>https://computer.howstuffworks.com/c13.htm/
+<br>https://www.w3schools.com/c/c_structs.php
+<br>https://www.geeksforgeeks.org/how-to-return-multiple-values-from-a-function-in-c-or-cpp/
