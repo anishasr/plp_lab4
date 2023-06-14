@@ -1,13 +1,13 @@
 # Programming Language Project - Lab 4
 
-1) Does your language include multiple types of loops (while, do/while, for, foreach)? If
+**1) Does your language include multiple types of loops (while, do/while, for, foreach)? If
 so, what are they and how do they differ from each other? 
 <br><br>Yes, C includes while loops, do while loops, and for loops. 
 <br><br>The loops have different placement of the code evaluating the loop condition. For example, the while loop and for loop evaluate the condition before entering the loop whereas the do while loop after a loop iteration occurs. 
 <br><br>A key difference in behavior is that, if the loop condition is not met in a while loop or a for loop, the code inside the loop will not be executed. But if the condition is not met in a do while loop, the code inside the loop will still be executed once before the condition is evaluated and the loop is exited. This is because the loop condition is at the end of the loop. 
 <br><br>Another difference is in the code that controls the iterations of the loop. In a while loop this code is in the loop body, usually the last line, whereas in for loops it occurs in the for loop conditon.
 
-2) What is the syntax for declaring a function in your language?
+**2) What is the syntax for declaring a function in your language?
 
 #### Code Example
  ```c
@@ -19,15 +19,15 @@ return_type name_of_function(parameters) {
 
 #### Not Returning Value Example: 
 
-    ```c
-    void even_or_odd(int num) {
-        if(num % 2 == 0) {
-            printf("Number is even");
-        } else {
-            printf("Number is odd");
-        }
+```c
+void even_or_odd(int num) {
+    if(num % 2 == 0) {
+        printf("Number is even");
+    } else {
+        printf("Number is odd");
     }
-    ```
+}
+```
 
 #### Returing a Value Example:
 
@@ -37,7 +37,7 @@ int integer_multiplication(int num1, int num2) {
 }
 ```
 
-3) Are there any rules about where the function has to be placed in your code file so that
+**3) Are there any rules about where the function has to be placed in your code file so that
 it can run?
 <br>In C functions must be created and placed in the file before they are called.
 
@@ -65,10 +65,10 @@ void perform_calculations() {
 }
 ```
 
-4) Does your language support recursive functions? 
+**4) Does your language support recursive functions? 
 <br> Yes, C does support recurisve functions.
 
-5) Can functions in your language accept multiple parameters? Can they be of different
+**5) Can functions in your language accept multiple parameters? Can they be of different
 data types?
 <br>Yes, functions in C do accept multiple paremeters. They can be of different data types. 
 
@@ -81,7 +81,7 @@ void print_data_types(int num, char word[]) {
 }
 ```
 
-6) Can functions in your language return multiple values at the same time? How is that
+**6) Can functions in your language return multiple values at the same time? How is that
 implemented? If not, are there ways around that problem? What are they?
 <br> Functions in C cannot return multiple values the same way a language like Python does (return x, y). But data structures such as arrays and C's 'struct' can be used to achieve this functionality. 
 
@@ -111,13 +111,12 @@ int main() {
 }
 ```
 
-7) Is your language pass-by reference or value?
+**7) Is your language pass-by reference or value?
 <br> C is pass by value. This means that when a function is called and arguments are passed in, the value of the arguments are copied into variables in the function. So functions work with copies of the values rather than accessing the original variables directly. The variables outside of the function do not change if changes are made to the corresponding values in the function.
 
-8) Are there any other aspects of functions in your language that aren't specifically asked
+**8) Are there any other aspects of functions in your language that aren't specifically asked
 about here, but that are important to know in order to write one? What are they?
-<br>
-One general rule about functions is that C requires the inclusion of a main() function. Another interesting aspect about functions in C is function prototypes. This is a way of declaring a function early in the program before it is defined and called.
+<br>One general rule about functions is that C requires the inclusion of a main() function. Another interesting aspect about functions in C is function prototypes. This is a way of declaring a function early in the program before it is defined and called.
 
 #### Code Example: 
 
