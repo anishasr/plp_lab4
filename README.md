@@ -19,15 +19,15 @@ return_type name_of_function(parameters) {
 
 #### Not Returning Value Example: 
 
- ```c
-void even_or_odd(int num) {
-    if(num % 2 == 0) {
-        printf("Number is even");
-    } else {
-        printf("Number is odd");
+    ```c
+    void even_or_odd(int num) {
+        if(num % 2 == 0) {
+            printf("Number is even");
+        } else {
+            printf("Number is odd");
+        }
     }
-}
-```
+    ```
 
 #### Returing a Value Example:
 
@@ -39,7 +39,7 @@ int integer_multiplication(int num1, int num2) {
 
 3) Are there any rules about where the function has to be placed in your code file so that
 it can run?
-<br><br> In C functions must be created and placed in the file before they are called.
+<br>In C functions must be created and placed in the file before they are called.
 
 #### Valid Placement:
 
