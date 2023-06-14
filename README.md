@@ -69,11 +69,11 @@ void perform_calculations() {
 ```
 
 4) Does your language support recursive functions? 
-<br><br> Yes, C does support recurisve functions.
+<br> Yes, C does support recurisve functions.
 
 5) Can functions in your language accept multiple parameters? Can they be of different
 data types?
-<br><br> Yes, functions in C do accept multiple paremeters. They can be of different data types. 
+<br>Yes, functions in C do accept multiple paremeters. They can be of different data types. 
 
 ### Code Example: 
 
@@ -81,6 +81,36 @@ data types?
 void print_data_types(int num, char word[]) {
     printf("Integer: %d\n", num);
     printf("String Value: %s\n", word);
+}
+```
+
+6) Can functions in your language return multiple values at the same time? How is that
+implemented? If not, are there ways around that problem? What are they?
+<br> Functions in C cannot return multiple values the same way a language like Python does (return x, y). But data structures such as arrays and C's 'struct' can be used to achieve this functionality. 
+
+## Code Example: 
+
+```c
+struct Height {
+    int feet;
+    int inches;
+};
+
+struct Height convert_to_feet(int cm) {
+    struct Height h;
+    int inches = cm / 2.54;
+    h.feet = inches / 12;
+    h.inches = inches - (h.feet * 12);
+
+    return h;
+}
+
+int main() {
+    struct Height height;
+    height = convert_to_feet(170);
+
+    printf("Feet: %d\n", height.feet);
+    printf("Inches: %d\n", height.inches);
 }
 ```
 
