@@ -1,7 +1,7 @@
 # Programming Language Project - Lab 4
 
-1) Does your language include multiple types of loops (while, do/while, for, foreach)? If
-so, what are they and how do they differ from each other? 
+**1) Does your language include multiple types of loops (while, do/while, for, foreach)? If
+so, what are they and how do they differ from each other?**
 <br><br>Yes, C includes while loops, do while loops, and for loops. 
 <br><br>The loops have different placement of the code evaluating the loop condition. For example, the while loop and for loop evaluate the condition before entering the loop whereas the do while loop after a loop iteration occurs. 
 <br><br>A key difference in behavior is that, if the loop condition is not met in a while loop or a for loop, the code inside the loop will not be executed. But if the condition is not met in a do while loop, the code inside the loop will still be executed once before the condition is evaluated and the loop is exited. This is because the loop condition is at the end of the loop. 
