@@ -65,11 +65,11 @@ void perform_calculations() {
 }
 ```
 
-4) Does your language support recursive functions? 
+**4) Does your language support recursive functions?**
 <br> Yes, C does support recurisve functions.
 
 **5) Can functions in your language accept multiple parameters? Can they be of different
-data types?
+data types?**
 <br>Yes, functions in C do accept multiple paremeters. They can be of different data types. 
 
 #### Code Example: 
@@ -81,8 +81,8 @@ void print_data_types(int num, char word[]) {
 }
 ```
 
-6) Can functions in your language return multiple values at the same time? How is that
-implemented? If not, are there ways around that problem? What are they?
+**6) Can functions in your language return multiple values at the same time? How is that
+implemented? If not, are there ways around that problem? What are they?**
 <br> Functions in C cannot return multiple values the same way a language like Python does (return x, y). But data structures such as arrays and C's 'struct' can be used to achieve this functionality. 
 
 #### Code Example: 
@@ -111,11 +111,11 @@ int main() {
 }
 ```
 
-7) Is your language pass-by reference or value?
+**7) Is your language pass-by reference or value?**
 <br> C is pass by value. This means that when a function is called and arguments are passed in, the value of the arguments are copied into variables in the function. So functions work with copies of the values rather than accessing the original variables directly. The variables outside of the function do not change if changes are made to the corresponding values in the function.
 
-8) Are there any other aspects of functions in your language that aren't specifically asked
-about here, but that are important to know in order to write one? What are they?
+**8) Are there any other aspects of functions in your language that aren't specifically asked
+about here, but that are important to know in order to write one? What are they?**
 <br>One general rule about functions is that C requires the inclusion of a main() function. Another interesting aspect about functions in C is function prototypes. This is a way of declaring a function early in the program before it is defined and called.
 
 #### Code Example: 
